@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "copywrite-me",
+  "version": "0.1.0",
+  "description": "Copywriter for owners and makers: interview, live channel guidelines, the text and a scorecard of up to 50 elements with a score out of 100 and concrete fixes.",
+  "author": {
+    "name": "Jockkie Studio",
+    "email": "info@jockkie.com",
+    "url": "https://www.jockkie.com"
+  },
+  "homepage": "https://www.jockkie.com",
+  "license": "MIT",
+  "repository": "https://github.com/Jockkie/copywrite-me"
+}

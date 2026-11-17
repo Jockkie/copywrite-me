@@ -1,0 +1,22 @@
+{
+  "name": "copywrite-me",
+  "version": "0.1.0",
+  "description": "Copywriter for owners and makers: interview, live channel guidelines, the text and a scorecard of up to 50 elements with a score out of 100 and concrete fixes.",
+  "author": {
+    "name": "Jockkie Studio",
+    "email": "info@jockkie.com",
+    "url": "https://www.jockkie.com"
+  },
+  "homepage": "https://www.jockkie.com",
+  "repository": "https://github.com/Jockkie/copywrite-me",
+  "license": "MIT",
+  "keywords": [
+    "copywriting",
+    "copy",
+    "landing-page",
+    "email",
+    "social-media",
+    "scorecard"
+  ],
+  "privacyPolicyUrl": "https://github.com/Jockkie/copywrite-me#privacy"
+}

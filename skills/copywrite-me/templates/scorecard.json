@@ -1,0 +1,20 @@
+{
+  "schema": "copywrite-me/scorecard/v1",
+  "title": "Example: landing page, heat pump installation",
+  "channel": "landing page",
+  "date": "2026-11-08",
+  "version": "before",
+  "sections": {
+    "Opening": {"Headline or hook": "moderate", "Subheadline": "weak", "Lead": "weak", "Promise": "moderate"},
+    "Body": {"Problem in their words": "weak", "Cost of the problem": "moderate", "The dream": "weak", "Reframe": "n/a", "Mechanism": "moderate", "Old way, new way": "weak", "Story": "n/a", "Who it is for and not for": "weak"},
+    "Offer": {"What you get": "strong", "How it works": "strong", "Outcome focus": "weak", "Price and value": "weak", "Risk reversal": "moderate", "Objections handled": "weak", "FAQ": "moderate", "Options": "n/a"},
+    "Close": {"Call to action": "moderate", "Real urgency": "n/a", "Final reassurance": "weak"},
+    "Proof": {"Testimonials": "moderate", "Results and numbers": "weak", "Case or before and after": "weak", "Authority": "strong", "Proof placement": "weak"},
+    "Editing": {"Clarity": "moderate", "Customer language": "weak", "Tone of voice": "moderate", "Show, don't tell": "weak", "Flow": "moderate", "Tightness": "moderate", "Readability": "strong"},
+    "Channel fit": {"Format and length": "moderate", "First-screen rule": "weak", "Platform rules": "strong", "Visual pairing": "moderate", "Accessibility": "moderate"}
+  },
+  "fixes": {
+    "Lead": "Open with the moment the reader gets the gas bill, in their words.",
+    "Price and value": "Show the price next to ten years of gas costs."
+  }
+}
