@@ -52,7 +52,7 @@ Copy `skills/copywrite-me` into the client's skills directory (for example `.age
 |----------|--------|-----------------|
 | Claude Code | Validated | The marketplace, manifest and hook pass `claude plugin validate`; the skill was tested in evaluation rounds with Claude models |
 | Claude.ai | Skill tested | The same `SKILL.md` as in the evaluations; the zip upload itself is not yet tested |
-| Hermes Agent | Untested | Built to the Agent Plugins specification |
+| Hermes Agent | Partially validated | The skill loads and `scripts/copy_score.py` runs in Hermes Agent 0.23.4; three real posts were scored with the scorecard on 28 November 2026. The interview flow and the guard hook are not yet exercised there, the hook is Claude Code only |
 | Microsoft Copilot | Untested | Agent Skills upload (Premium). The interview and the method run; scripts only where Copilot runs code, and Monid and Flora are not connected there |
 | GitHub Copilot | Untested | Built to the Agent Skills format; it runs code, so the scripts work there, as in Claude Code |
 | ChatGPT, OpenClaw, Grok | Untested | Built to the Agent Skills format |
@@ -90,6 +90,8 @@ What you share stays with you. Personal data is never sent to external tools, an
 ## Quality
 
 Every change runs the script tests and checks on GitHub (`.github/workflows/tests.yml`). The skill itself is tested with written evaluation cases (`evals/evals.json`) and full simulated conversations, graded by a separate model; results are in `evals/results`.
+
+**It is working if:** the score comes with the weak elements first and a fix per element; every number in the score is traceable to the scorecard reference; and nothing in the text is a claim you did not supply. If a score arrives without those three, the run failed, not the text.
 
 What changed per version is in the [changelog](CHANGELOG.md). Want to help? Read [CONTRIBUTING](CONTRIBUTING.md). Found a security problem? Report it privately through the Security tab ([how](SECURITY.md)), not in a public issue.
 
